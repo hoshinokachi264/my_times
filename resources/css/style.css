@@ -33,3 +33,15 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+
+/*main content*/
+
+body{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  }
+.column {
+    display: flex
+    flex-direction: column;
+  }
