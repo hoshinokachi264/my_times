@@ -1,26 +1,35 @@
 /*Header*/
 
-.header {
+header {
  align-items: center;
- Border: 1px solid black;
+ background-color: white;
+ border-bottom: 1px solid black;
  Display: flex;
  font-family: Verdana;
  font-size: 14px;
  font-weight: bold;
  position: fixed;
+ width: 100%;
+ height: 80px;
+ z-index: 1;
 }
 .logo {
   Border: 1px solid black;
   color: MediumAquamarine;
   Display: block;
+  margin-right: 12px;
 }
-.logo2 {
-  display: inline-block;
 
-}
-.navigation {
+/*navigation*/
+
+.nav {
   Border: 1px solid black;
 }
 a {
   color: black;
+  text-decoration: underline;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
 }
