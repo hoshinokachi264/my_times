@@ -37,7 +37,7 @@ header {
   width: 73.9125px;
 }
 
-/*navigation*/
+                            /*navigation*/
 
 .nav {
   Border: 1px solid black;
@@ -53,14 +53,49 @@ nav span {
   padding: 20px 10px;
 }
 
-/*main content*/
+                        /*main content*/
 
-body{
+body {
   font-family: Georgia;
   font-size: 17px;
   color: black;
   }
+div {
+  border: 1px solid black;
+  display: block;
+}
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+                        /*large column*/
+.column.large {
+  width: 630px;
+}
 .column {
-    display: flex
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.main-story {
+  height: 218px;
+  width: 600.9px;
   }
+.image-title {
+  height: 18.4px;
+  width: 598.9px;
+  }
+.narrative {
+  height: 165.6px;
+  width: 600.9px;
+  }
+                      /*Medium column*/
+.column.medium {
+  width: 300px;
+}
+                      /*small column*/
+.column.small {
+  width: 240px;
+}
