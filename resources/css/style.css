@@ -64,13 +64,39 @@ div {
   border: 1px solid black;
   display: block;
 }
+div.story {
+  height: 142.225px;
+  width: 598.9px;
+}
+div.text-content {
+  height: 119.825px;
+  width: 596.9px;
+}
 .content {
   display: flex;
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
 }
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-before: 0.83em;
+  margin-after: 0.83em;
+  margin-start: 0px;
+  margin-end: 0px;
+  font-weight: bold;
+  height: 27.2px;
+  width: 596.9px;
+  }
+p.narrative {
+  height: 36.8px;
+  width: 596.9px;
+  }
                         /*large column*/
+div.column.large {
+  height: 573.425px;
+}
 .column.large {
   width: 630px;
 }
@@ -78,6 +104,14 @@ div {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
+}
+div.main-story{
+  height: 218px;
+  width: 600.9px;
+}
+div.image-title {
+  height: 18.4px;
+  width: 598.9px;
 }
 .main-story {
   height: 218px;
@@ -91,6 +125,10 @@ div {
   height: 165.6px;
   width: 600.9px;
   }
+div.fall-canceled.image-title {
+  height: 18.4px;
+  width: 596.9px;
+}
                       /*Medium column*/
 .column.medium {
   width: 300px;
