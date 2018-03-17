@@ -66,14 +66,14 @@ div {
 }
 
 div.story {
-  width: 598.9px;
+
 }
 div.text-content {
-  width: 596.9px;
+
 }
 .content {
   display: flex;
-  width: 1232px;
+
   margin: 0 auto 78px auto;
   padding-top: 116px;
 }
@@ -85,52 +85,46 @@ h2 {
   margin-start: 0px;
   margin-end: 0px;
   font-weight: bold;
-  width: 596.9px;
+
   }
 p.narrative {
   display: block;
-  width: 600.9px;
+
   margin-after: 16px;
   margin-before: 16px;
-  width: 596.9px;
+
 }
 .column {
-  display: flex;
-  flex-direction: column;
   margin-right: 32px;
 }
                         /*large column*/
 .column.large {
   width: 630px;
-  display: flex;
 }
-
 div.main-story{
-  width: 600.9px;
+
 }
 div.image-title {
-  width: 598.9px;
+
 }
 .main-story {
-  width: 600.9px;
+
   }
 .image-title {
-  width: 598.9px;
+
   }
 .stories {
   border: 1;
-  width: 600.9px;
+
 }
 div.fall-canceled.image-title {
-  width: 596.9px;
+
 }
                       /*Medium column*/
 .column.medium {
   width: 300px;
-display: flex;
 }
                       /*small column*/
 .column.small {
   width: 240px;
-display: flex;
 }
