@@ -41,7 +41,6 @@ header {
                             /*navigation*/
 
 .nav {
-  Border: 1px solid black;
   height: auto;
   width:auto;
 }
@@ -95,18 +94,17 @@ p.narrative {
   margin-before: 16px;
   width: 596.9px;
 }
-/*p.narrative {
-
-  }*/
-                        /*large column*/
-.column.large {
-  width: 630px;
-}
 .column {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
 }
+                        /*large column*/
+.column.large {
+  width: 630px;
+  display: flex;
+}
+
 div.main-story{
   width: 600.9px;
 }
@@ -123,15 +121,16 @@ div.image-title {
   border: 1;
   width: 600.9px;
 }
-
 div.fall-canceled.image-title {
   width: 596.9px;
 }
                       /*Medium column*/
 .column.medium {
   width: 300px;
+display: flex;
 }
                       /*small column*/
 .column.small {
   width: 240px;
+display: flex;
 }
