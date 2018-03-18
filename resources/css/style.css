@@ -61,7 +61,7 @@ body {
   color: black;
   }
 div {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   display: block;
 }
 .content {
@@ -71,32 +71,41 @@ div {
 }
 h2 {
   display: block;
-  font-size: 1.5em;
+  font-size: 24px;
   margin-before: 0.83em;
   margin-after: 0.83em;
   margin-start: 0px;
   margin-end: 0px;
   font-weight: bold;
-
-  }
+}
 p.narrative {
   display: block;
   margin-after: 16px;
   margin-before: 16px;
 }
+.narrative {
+    margin-top: 16px;
+}
 .column {
-  margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
 }
                         /*large column*/
 .column.large {
   width: 630px;
 }
 .stories {
-  border: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
-.main-story,
-.fall-canceled,
-.hipster {
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.main-story {
   width: 630px;
 }
 .main-story .image-title {
@@ -109,6 +118,8 @@ p.narrative {
 }
 .fall-canceled,
 .hipster {
+  margin-top: 15px;
+  width: 300px;
   text-align: center;
 }
 .fall-canceled {
