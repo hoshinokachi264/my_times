@@ -60,7 +60,6 @@ body {
   color: black;
   }
 div {
-  /*border: 1px solid black;*/
   display: block;
 }
 .content {
@@ -82,13 +81,18 @@ p.narrative {
   margin-after: 16px;
   margin-before: 16px;
 }
+.image-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .narrative {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 .column {
-    display: flex;
-    flex-direction: column;
-    margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
                         /*large column*/
 .column.large {
@@ -106,6 +110,9 @@ p.narrative {
 }
 .main-story {
   width: 630px;
+}
+.main-story.image-title span {
+  margin-left: 20px;
 }
 .main-story .image-title {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
